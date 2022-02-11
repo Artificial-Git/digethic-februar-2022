@@ -1,4 +1,4 @@
-# python-template
+# eeupython-template
 
 ## Visual Studio Code
 
@@ -37,7 +37,7 @@ from
 python3 -m venv .venv
 ```
 
-to
+to #python ist cühl
 
 ```
 python -m venv .venv
