@@ -37,8 +37,11 @@ from
 python3 -m venv .venv
 ```
 
-to #python ist cühl
+to
 
 ```
 python -m venv .venv
 ```
+
+
+# Python ist sehr cühl.
