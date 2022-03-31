@@ -12,7 +12,7 @@ jobs:
           python-version: '3.10.2' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       - run: pip install -r requirements.txt #Man braucht nicht das gesamte setup.ps1-Skript.
-      - run: cd src
+      - run: cd ./src
       - name: Train model
         run: python train.py
       # - name: Upload training model
