@@ -6,12 +6,13 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Setup Python and install requirements
+      - name: Setup Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.10.2' # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-      - run: pip install -r requirements.txt #Man braucht nicht das gesamte setup.ps1-Skript.
+      - name: Install dependencies
+        run: pip install -r requirements.txt #Man braucht nicht das gesamte setup.ps1-Skript.
       - name: Train model
         run: python src/train.py
       - name: Upload training model
