@@ -14,8 +14,8 @@ jobs:
       - run: pip install -r requirements.txt #Man braucht nicht das gesamte setup.ps1-Skript.
       - name: Train model
         run: python src/train.py
-      # - name: Upload training model
-      #   uses: actions\upload-artifact@v3
-      #   with:
-      #     name: baummethoden_lr.pickle
-      #     path: data\models\baummethoden_lr.pickle
+      - name: Upload training model
+        uses: actions\upload-artifact@v3
+        with:
+          name: baummethoden_lr.pickle
+          path: data\models\baummethoden_lr.pickle
