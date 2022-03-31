@@ -17,7 +17,7 @@ import pickle
 # auto_array[i] gibt alle Attribute der iten Instanz, auto_array["attribut"] gibt "attribut" aller Instanzen raus.
 #auto_array = np.genfromtxt('../data/auto-mpg.csv', dtype=float, delimiter=";", names=True)
 #data = pd.read_csv('../data/auto-mpg.csv', sep=";")
-data = pd.read_csv('./auto-mpg.csv', sep=";")
+data = pd.read_csv('auto-mpg.csv', sep=";")
 
 print(data)
 
