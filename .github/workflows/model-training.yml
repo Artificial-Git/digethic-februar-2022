@@ -14,7 +14,7 @@ jobs:
       - run: pip install -r requirements.txt #Man braucht nicht das gesamte setup.ps1-Skript.
       - run: cd src
       - name: Train model
-          run: python train.py
+        run: python train.py
       # - name: Upload training model
       #   uses: actions\upload-artifact@v3
       #   with:
