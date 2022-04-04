@@ -13,11 +13,15 @@ import pickle
 
 # %matplotlib inline
 
+
+def rmse(y_pred, y):
+    return np.sqrt(np.mean((y_pred-y)**2))
+
+
 # name=True bedeutet, dass Header als solche gespeichert werden.
 # auto_array[i] gibt alle Attribute der iten Instanz, auto_array["attribut"] gibt "attribut" aller Instanzen raus.
 #auto_array = np.genfromtxt('../data/auto-mpg.csv', dtype=float, delimiter=";", names=True)
-#data = pd.read_csv('../data/auto-mpg.csv', sep=";")
-data = pd.read_csv('data/auto-mpg.csv', sep=";")
+data = pd.read_csv('../data/auto-mpg.csv', sep=";")
 
 print(data)
 
@@ -37,10 +41,8 @@ regressor = LinearRegression()
 
 regressor = regressor.fit(x_train, y_train)
 
-# Vorhersage testen.
 y_pred = regressor.predict(x_test)
 
 # wb: öffnen für writing und im Binärmodus
-#file_to_write = open("../data/models/baummethoden_lr.pickle", "wb")
-file_to_write = open("data/models/baummethoden_lr.pickle", "wb")
+file_to_write = open("../data/models/baummethoden_lr.pickle", "wb")
 pickle.dump(regressor, file_to_write)
