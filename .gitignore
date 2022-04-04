@@ -3,5 +3,5 @@
 .DS_Store
 
 data/models/*
-
+!data/models/.gitkeep
 __pycache__
