@@ -8,4 +8,4 @@ CORS(app)
 
 @app.route("/", methods=["GET"])
 def index():
-    return{"hello": "world", "hi": "mars"}
+    return{"Hallo": "Erde", "Hi": "Mars", "ähäoü": "Venus"}
