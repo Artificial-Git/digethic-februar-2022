@@ -50,5 +50,5 @@ def predict():
         return {'result': prediction[0]}
 
     # , mimetype='application/json')
-    # , mimetype='application/json')
-    return Response('Please provide all necessary paramenters to get a prediction: zylinder, ps, gewicht, beschleunigung, baujahr')
+    return Response('Please provide all necessary paramenters to get a prediction: zylinder, ps, \
+        gewicht, beschleunigung, baujahr')
