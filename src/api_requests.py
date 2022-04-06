@@ -1,5 +1,5 @@
-#from unittest import result
-#from urllib import request
+# from unittest import result
+# from urllib import request
 import requests
 # GET Request to https://www.metaweather.com/api/location/search/?query=dresden
 params = {'query': 'dresden'}
