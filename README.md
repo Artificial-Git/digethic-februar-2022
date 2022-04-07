@@ -43,5 +43,4 @@ to
 python -m venv .venv
 ```
 
-
 # Python ist sehr cühl.
