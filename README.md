@@ -42,6 +42,7 @@ to
 ```
 python -m venv .venv
 ```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -79,11 +80,18 @@ Check  out our [Next.js deployment documentation](https://nextjs.org/docs/deploy
 
 Deploy this project: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FOFranke%2Fbaummethoden-frontend&env=NEXT_PUBLIC_PREDICTION_API)
 
-
-
 ## Used Technology
-- React: https://reactjs.org/ 
+
+- React: https://reactjs.org/
 - React Framework: https://nextjs.org/
 - Hosting: https://vercel.com/
+
+>>>>>>> 262d038568da2542dec017c10db4f6ecfe06c457
+>>>>>>>
+>>>>>>
+>>>>>
+>>>>
+>>>
+>>
 
 # Python ist sehr cühl.
