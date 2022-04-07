@@ -86,12 +86,4 @@ Deploy this project: [![Deploy with Vercel](https://vercel.com/button)](https://
 - React Framework: https://nextjs.org/
 - Hosting: https://vercel.com/
 
->>>>>>> 262d038568da2542dec017c10db4f6ecfe06c457
->>>>>>>
->>>>>>
->>>>>
->>>>
->>>
->>
-
 # Python ist sehr cühl.
